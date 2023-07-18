@@ -18,7 +18,7 @@ def mostrar_respuesta(clima):                    #Mostrar el clima
         descripcion["text"] = desc
     except:
         ciudad["text"] = "Error"
-#Openweathermap:es un servicio en linea que proporciona datos y pronosticos meteorologicos.        
+#La pagina del clima:es un servicio en linea que proporciona datos y pronosticos meteorologicos.        
 def clima_JSON(ciudad):                        #Realizar un Json
     try:
         API_Key = "Deben loguearse en la pagina,asi se les otorga un API_key de usuario"                 #Obtener API_Key
