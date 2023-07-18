@@ -22,7 +22,7 @@ def mostrar_respuesta(clima):                    #Mostrar el clima
 def clima_JSON(ciudad):                        #Realizar un Json
     try:
         API_Key = "Deben loguearse en la pagina,asi se les otorga un API_key de usuario"                 #Obtener API_Key
-        URL = "https://api.openweathermap.org/data/2.5/weather"      #Loguearse en la pagina
+        URL = "https://...."      #Loguearse en la pagina
         parametros = {"APPID": API_Key, "q": ciudad, "units": "metric","lang":"es"}
         response = requests.get(URL, params = parametros)            #respuesta desde el servidor
         clima=response.json()
