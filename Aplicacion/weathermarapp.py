@@ -21,7 +21,7 @@ def mostrar_respuesta(clima):                    #Mostrar el clima
 #Openweathermap:es un servicio en linea que proporciona datos y pronosticos meteorologicos.        
 def clima_JSON(ciudad):                        #Realizar un Json
     try:
-        API_Key = "40aabb59f41e9e88db7be4bab11f49f8"                 #Obtener API_Key
+        API_Key = "Deben loguearse en la pagina,asi se les otorga un API_key de usuario"                 #Obtener API_Key
         URL = "https://api.openweathermap.org/data/2.5/weather"      #Loguearse en la pagina
         parametros = {"APPID": API_Key, "q": ciudad, "units": "metric","lang":"es"}
         response = requests.get(URL, params = parametros)            #respuesta desde el servidor
